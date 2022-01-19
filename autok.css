@@ -1,0 +1,21 @@
+div img{
+    width:100%;
+}
+article{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+div{
+    margin: 20px;
+}
+div img{
+    text-align: center;
+}
+h2{
+    color:green;
+}
+@media screen and (max-width:768px){
+    article{
+        grid-template-columns: 1fr;
+    }
+}
